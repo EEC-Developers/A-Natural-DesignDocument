@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# A-Natural
+## An Object-Oriented Framework for Amiga-like Operating Systems
+Software Design Document
 
-You can use the [editor on GitHub](https://github.com/SamuraiCrow/A-Natural-DesignDocument/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+By Samuel D. Crow
+samueldcrow@gmail.com
+Started January 4, 2017
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Introduction
 
-### Markdown
+## Purpose
+To bring a moderately sized object-oriented framework to the Amiga-like platforms.  Microsoft has its .NET platform, Apple has Objective C and Linux has too many frameworks to count.  Amiga has MUI as its primary BOOPSI derived framework for the GUI but lacks general purpose data structures.  That is the gap this product is to fill.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Scope
+Since frameworks of this type generally grow quite large the aim is to limit the size to something that will run on a system with 16 Mebibytes or less.  Beyond the scope of this project will be garbage collected virtual machine architectures because this project will only contain the runtime libraries necessary to make application development easier on statically compiled languages like C++ and AmigaE.
 
-```markdown
-Syntax highlighted code block
+## Overview
+This document is intended to outline the most general aspects of the framework.  It will be divided into categories:
+1. Data Structures
+1. User Interface
+1. Media Playback
 
-# Header 1
-## Header 2
-### Header 3
+# System Overview
 
-- Bulleted
-- List
+## Data Structures
+This should include all the primitives found in the C++ Standard Template Library 2014 plus a few additions:
+1. Compile-time type identification that makes run-time type information optional
+1. Mandatory hash functions for all wrappers to the primitive types
+1. Singly-linked lists for when there is just no need to walk backwards
 
-1. Numbered
-2. List
+## User Interface
+MUI and its open-source counterpart, Zune, will be the basis for the graphical portion of the user interface.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SamuraiCrow/A-Natural-DesignDocument/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Media Playback
+Datatypes will be supplied to perform all media playback.
