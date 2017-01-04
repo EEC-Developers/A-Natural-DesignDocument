@@ -1,8 +1,9 @@
 # A-Natural
 ## An Object-Oriented Framework for Amiga-like Operating Systems
-Software Design Document
+### Software Design Document
 
-By Samuel D. Crow
+### By Samuel D. Crow
+
 Started January 4, 2017
 
 ---
@@ -17,6 +18,7 @@ Since frameworks of this type generally grow quite large the aim is to limit the
 
 ## Overview
 This document is intended to outline the most general aspects of the framework.  It will be divided into categories:
+
 1. Data Structures
 1. User Interface
 1. Media Playback
@@ -25,6 +27,7 @@ This document is intended to outline the most general aspects of the framework. 
 
 ## Data Structures
 This should include all the primitives found in the C++ Standard Template Library 2014 plus a few additions:
+
 1. Compile-time type identification that makes run-time type information optional
 1. Mandatory hash functions for all wrappers to the primitive types
 1. Singly-linked lists for when there is just no need to walk backwards
