@@ -9,6 +9,6 @@ Software Design Document
 Started January 4, 2017
 
 ## Table of Contents
-[Introduction](https://github.com/SamuraiCrow/A-Natural-DesignDocument/wiki/Introduction)
+[Introduction](introduction.html)
 
 [System Overview](https://github.com/SamuraiCrow/A-Natural-DesignDocument/wiki/System-Overview)
