@@ -1,6 +1,6 @@
 # A-Natural
 ## An Object-Oriented Framework for Amiga-like Operating Systems
-### Software Design Document
+Software Design Document
 
 ### By Samuel D. Crow
 
