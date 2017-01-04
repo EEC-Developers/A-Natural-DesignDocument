@@ -8,4 +8,5 @@ Started January 4, 2017
 
 ## Table of Contents
 [Introduction](https://github.com/SamuraiCrow/A-Natural-DesignDocument/wiki/Introduction)
+
 [System Configuration](https://github.com/SamuraiCrow/A-Natural-DesignDocument/wiki/System-Overview)
