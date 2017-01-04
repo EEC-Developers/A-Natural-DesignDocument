@@ -3,8 +3,8 @@
 Software Design Document
 
 By Samuel D. Crow
-samueldcrow@gmail.com
 Started January 4, 2017
+
 ---
 
 # Introduction
